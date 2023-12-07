@@ -12,7 +12,7 @@ DESCRIBE student;
 -- delete student table
 DROP TABLE student;
 
--- add a new colum field named gap
+-- add a new colum field named gpa
 ALTER TABLE student ADD gpa DECIMAL(3,2);
 
 -- drop a column from table
