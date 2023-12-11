@@ -14,3 +14,7 @@ WHERE name = 'nondo' AND major = 'chemistry';
 UPDATE student
 SET major = 'cse', name = 'sobuj'
 WHERE name = 'sobuj' OR name = 'maruf';
+
+-- this will update and set all the major into cse.
+UPDATE student
+SET major = 'cse';
