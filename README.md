@@ -22,6 +22,11 @@ SQL is a standard language for storing, manipulating and retrieving data in data
 
 * SELECT - extracts data from a database
 * UPDATE - updates data in a database
+    ```SQL
+    UPDATE student
+    SET major = 'math'
+    WHERE major = 'mathematics';
+    ```
 * DELETE - deletes data from a database
 * INSERT INTO - inserts new data into a database
 * CREATE DATABASE - creates a new database
