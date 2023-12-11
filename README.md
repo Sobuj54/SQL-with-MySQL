@@ -56,7 +56,7 @@ ALTER TABLE student ADD gpa DECIMAL(3,2);
 ```
 * DELETE TABLE - deletes all the data in a table
 ```SQL
--- this will delete the whole tale data
+-- this will delete the whole table data
 DELETE FROM student;
 ```
 * delete data based on condition
