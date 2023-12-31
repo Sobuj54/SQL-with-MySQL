@@ -9,3 +9,15 @@ CREATE TABLE employee(
     super_id INT,
     branch_id INT
 );
+
+
+-- adding foreign keys after creating employee and branch table
+ALTER TABLE employee
+ADD FOREIGN KEY(branch_id)
+REFERENCES branch(branch_id)
+ON DELETE SET NULL;
+
+ALTER TABLE employee
+ADD FOREIGN KEY(super_id)
+REFERENCES employee(emp_id)
+ON DELETE SET NULL;
