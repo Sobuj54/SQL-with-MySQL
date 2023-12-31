@@ -21,3 +21,11 @@ ALTER TABLE employee
 ADD FOREIGN KEY(super_id)
 REFERENCES employee(emp_id)
 ON DELETE SET NULL;
+
+INSERT INTO employee VALUES(100, 'david', 'wallace', '1935-12-25','m',150000, NULL, NULL);
+
+UPDATE employee
+SET branch_id = 1
+WHERE emp_id = 100;
+
+INSERT INTO employee VALUES(101, 'jan', 'lavindace', '1925-12-25','m',180000, 100, 1);

@@ -7,3 +7,8 @@ CREATE TABLE branch_supplier(
 );
 
 DESCRIBE branch_supplier;
+
+
+INSERT INTO branch VALUES(1, "corporate", 100, '1254-10-12');
+
+SELECT * FROM branch;
